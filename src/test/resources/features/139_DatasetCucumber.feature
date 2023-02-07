@@ -103,7 +103,7 @@ Feature: DatasetCucumber
 		Examples:
 		| var |
 		| "Test $(echo test)" |
-
+	#add backslash
 		@Test_$test
 		Examples:
 		| var |
