@@ -43,16 +43,16 @@ Feature: DatasetCucumber
 		Examples:
 		| var |
 		| "Test 'test'" |
-
+	#add backslash
 		@Test_"
 		Examples:
 		| var |
-		| "Test "" |
-
+		| "Test \"" |
+	#add backslash
 		@Test_"test"
 		Examples:
 		| var |
-		| "Test "test"" |
+		| "Test \"test\"" |
 
 		@Test_[test]
 		Examples:
@@ -68,11 +68,11 @@ Feature: DatasetCucumber
 		Examples:
 		| var |
 		| "Test /" |
-
+	# add triple backslash for one
 		@Test_\
 		Examples:
 		| var |
-		| "Test \" |
+		| "Test \\\" |
 
 		@Test_\$test
 		Examples:
@@ -93,11 +93,11 @@ Feature: DatasetCucumber
 		Examples:
 		| var |
 		| "Test %test%" |
-
+	#add backslash
 		@Test_|_echo_toto
 		Examples:
 		| var |
-		| "Test | echo toto" |
+		| "Test \| echo toto" |
 
 		@Test_$(echo_test)
 		Examples:
