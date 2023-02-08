@@ -18,11 +18,11 @@ Feature: Cucumber 4
 		Examples:
 		| var |
 		| "Test '" |
-
+#no
 		@"
 		Examples:
 		| var |
-		| "Test "" |
+		| "Test \"" |
 
 		@&
 		Examples:
@@ -58,11 +58,11 @@ Feature: Cucumber 4
 		Examples:
 		| var |
 		| "Test 'test'" |
-
+#no
 		@Test"test"
 		Examples:
 		| var |
-		| "Test "test"" |
+		| "Test \"test\"" |
 
 		@Test[test]
 		Examples:
@@ -78,16 +78,16 @@ Feature: Cucumber 4
 		Examples:
 		| var |
 		| "Test /" |
-
+#no
 		@Test\
 		Examples:
 		| var |
-		| "Test \" |
-
+		| "Test \\" |
+#no
 		@Test\$test
 		Examples:
 		| var |
-		| "Test \$test" |
+		| "Test \\$test" |
 
 		@Test#test
 		Examples:
@@ -98,11 +98,11 @@ Feature: Cucumber 4
 		Examples:
 		| var |
 		| "Test %test%" |
-
+#no
 		@Test|echototo
 		Examples:
 		| var |
-		| "Test | echo toto" |
+		| "Test \| echo toto" |
 
 		@Test$(echotest)
 		Examples:
