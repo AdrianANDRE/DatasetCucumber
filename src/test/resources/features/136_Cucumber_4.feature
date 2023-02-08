@@ -69,7 +69,7 @@ Feature: Cucumber 4
 		| var |
 		| "Test [test]" |
 
-		@Test{echo_test}
+		@Test{echotest}
 		Examples:
 		| var |
 		| "Test {echo test}" |
@@ -104,7 +104,7 @@ Feature: Cucumber 4
 		| var |
 		| "Test | echo toto" |
 
-		@Test$(echo_test)
+		@Test$(echotest)
 		Examples:
 		| var |
 		| "Test $(echo test)" |
