@@ -4,11 +4,6 @@ Feature: Cucumber 4
 	Scenario Outline: Cucumber 4
 		Given Voici une variable <var>
 
-		@`
-		Examples:
-		| var |
-		| "Test ` echo test `" |
-
 		@;echototo
 		Examples:
 		| var |
@@ -33,6 +28,11 @@ Feature: Cucumber 4
 		Examples:
 		| var |
 		| "Test $test" |
+
+		@test
+		Examples:
+		| var |
+		| "Test ` echo test `" |
 
 		@Test^
 		Examples:
