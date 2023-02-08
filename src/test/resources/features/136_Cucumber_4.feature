@@ -82,7 +82,7 @@ Feature: Cucumber 4
 		@Test\
 		Examples:
 		| var |
-		| "Test \\" |
+		| "Test \\\" |
 #no
 		@Test\$test
 		Examples:
