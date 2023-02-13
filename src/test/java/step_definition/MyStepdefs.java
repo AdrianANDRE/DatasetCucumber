@@ -11,7 +11,7 @@ public class MyStepdefs {
     }
     @Given("Voici une CUF")
     public void cuf() throws ParameterException {
-        String var = ParameterService.INSTANCE.getString("libelle");
+        String var = ParameterService.INSTANCE.getString("TC_CUF_textesimple");
         System.out.println(var);
     }
 }
