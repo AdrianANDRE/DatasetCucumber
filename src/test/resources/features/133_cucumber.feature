@@ -1,5 +1,5 @@
-git # language: en
-Feature: cucumber
+    # language: en
+    Feature: cucumber
 
-	Scenario: cucumber
-		Given Voici une CUF
+      Scenario: cucumber
+        Given Voici une CUF
