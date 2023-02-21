@@ -19,6 +19,11 @@ Feature: Test
 		| var |
 		| "Test ^^" |
 
+		@test-test
+		Examples:
+		| var |
+		| "Test -" |
+
 		@Test,.+-_~@€çé=àû*?!
 		Examples:
 		| var |
