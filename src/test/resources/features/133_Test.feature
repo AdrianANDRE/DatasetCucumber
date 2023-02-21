@@ -22,7 +22,7 @@ Feature: Test
 		@test-test
 		Examples:
 		| var |
-		| "Test -" |
+		| "test-test" |
 
 		@Test,.+-_~@€çé=àû*?!
 		Examples:
@@ -102,7 +102,7 @@ Feature: Test
 		@Test|echototo
 		Examples:
 		| var |
-		| "Test | echo toto" |
+		| "Test \| echo toto" |
 
 		@Test$(echotest)
 		Examples:

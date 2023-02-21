@@ -9,7 +9,7 @@ Feature: Cucumber 4
 
 		#pour cucumber 5 : mvn test -f "DatasetCucumber/pom.xml" -Dmaven.test.failure.ignore=true -Dcucumber.features="src/test/resources/features/133_cucumber.feature" -Dcucumber.plugin="html:target/html-report.html,junit:target/report.xml" --tags @Test{echotest}
 
-	  #mvn test -f "DatasetCucumber/pom.xml" -Dmaven.test.failure.ignore=true -Dcucumber.options="src/test/resources/features/136_Cucumber_4.feature --plugin html:target/html-report.html --plugin junit:target/report.xml --tags @Test{echotest}"
+	  #@test-test
 #Windows  / #linux
 
 	#command ok / command ok
