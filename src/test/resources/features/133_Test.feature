@@ -4,6 +4,11 @@ Feature: Test
 	Scenario Outline: Test
 		Given Voici une variable <var>
 
+		@coucou
+		Examples:
+		| var |
+		| "coucou" |
+
 		@Test`echotest`
 		Examples:
 		| var |
